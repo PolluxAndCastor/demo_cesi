@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+        - pip install --upgrade pip
         - python -m pip install flask
   build:
     commands:
