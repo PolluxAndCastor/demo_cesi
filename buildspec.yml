@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - python3 -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org Flask
+        - pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org Flask
   build:
     commands:
       - echo Build started on `date`
